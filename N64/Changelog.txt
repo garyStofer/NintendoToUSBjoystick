@@ -1,0 +1,12 @@
+--- v1.2 (Nov 6, 2008)
+    Nintendo Wavebird controllers are now supported.
+    Compatibility improvements.
+
+--- v1.1 (Nov 11, 2007)
+	C-Stick vertical orientation was wrong.
+
+--- v1.0 (Apr 21, 2007)
+Initial release:
+	Nintendo 64 controller support
+	Gamecube controller support
+

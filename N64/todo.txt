@@ -1,0 +1,4 @@
+Currently commented out the gamecube controller option, so that I could change the report descritor to N64 functions only 
+Compiling for atmega88 and not for 88pa -- need to update the usbdrv stuff with new lib to use 'P' devices -- having to do with 
+the interrupt vs Signal keywords.
+ 
