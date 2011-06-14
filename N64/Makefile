@@ -2,7 +2,7 @@
 
 #####   USE managed build in AVRSTUDIO5 instead 
 
-
+## FUSE setting for ATMEGA88P  0xF9,0xDD,0xDF
 
 
 # Name: Makefile

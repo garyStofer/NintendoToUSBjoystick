@@ -6,6 +6,8 @@
  * Comments: Based on HID-Test by Christian Starkjohann
  * Tabsize: 4
  */
+// FUSE for ATMEGA88P 0xF9,0xDD,0xDF
+
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>

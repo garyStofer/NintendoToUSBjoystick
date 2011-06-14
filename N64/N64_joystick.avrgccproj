@@ -14,15 +14,14 @@
     <AssemblyName>AVRGCC1</AssemblyName>
     <Name>N64_joystick</Name>
     <RootNamespace>AVRGCC1</RootNamespace>
-    <avrtool>
-    </avrtool>
+    <avrtool>com.atmel.avrdbg.tool.jtagicemkii</avrtool>
     <com_atmel_avrdbg_tool_jtagicemkii>
       <ToolType>com.atmel.avrdbg.tool.jtagicemkii</ToolType>
       <ToolName>JTAGICE mkII</ToolName>
       <ToolNumber>00B000002A14</ToolNumber>
       <Channel>
         <host>127.0.0.1</host>
-        <port>1065</port>
+        <port>1034</port>
         <ssl>False</ssl>
       </Channel>
       <ToolOptions>
@@ -41,6 +40,17 @@
       </ToolOptions>
     </com_atmel_avrdbg_tool_jtagicemkii>
     <avrtoolinterface>debugWIRE</avrtoolinterface>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolName xmlns="">AVR Simulator</ToolName>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <Channel xmlns="">
+        <host>127.0.0.1</host>
+        <port>1059</port>
+        <ssl>False</ssl>
+      </Channel>
+    </com_atmel_avrdbg_tool_simulator>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>

@@ -1,3 +1,5 @@
+// FUSE setting for ATMEGA88P : 0xF9,0xDD,0xDF
+
 /* Name: usbconfig.h
  * Project: AVR USB driver
  * Author: Christian Starkjohann
@@ -117,7 +119,7 @@ must be adapted to your hardware.
  */
 //#define USB_CFG_DEVICE_NAME     'G','C','/','N','6','4','_','U','S','B'
 //#define USB_CFG_DEVICE_NAME_LEN 10
-#define USB_CFG_DEVICE_NAME     'N','I','N','_','6','4','_','U','S','B'
+#define USB_CFG_DEVICE_NAME     'M','I','N','_','6','4','_','U','S','B'
 #define USB_CFG_DEVICE_NAME_LEN 10
 /* Same as above for the device name. If you don't want a device name, undefine
  * the macros. See the file USBID-License.txt before you assign a name.

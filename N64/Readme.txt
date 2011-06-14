@@ -1,5 +1,6 @@
 This is gc_n64_usb Readme.txt file. 
 
+FUSE setting for ATMEL88P F9,DD, DF
 Table of contents:
 
 1) What is gc_n64_usb?
