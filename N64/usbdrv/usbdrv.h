@@ -286,7 +286,7 @@ extern uchar    usbConfiguration;
  * string's length. See usbdrv.c for an example how to use it.
  */
 #if USB_CFG_SERIAL_NUMBER_LENGTH
-extern PROGMEM int  usbCfgSerialNumberStringDescriptor[];
+extern PROGMEM int  const usbCfgSerialNumberStringDescriptor[];
 /* This array of unicode characters (prefixed by a string descriptor header as
  * explained above) represents the serial number of the device.
  */

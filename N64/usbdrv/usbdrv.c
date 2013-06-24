@@ -116,7 +116,7 @@ static PROGMEM char usbDescrDevice[] = {    /* USB device descriptor */
 };
 #endif
 
-static PROGMEM char usbDescrConfig[] = {    /* USB configuration descriptor */
+static PROGMEM char const usbDescrConfig[] = {    /* USB configuration descriptor */
     9,          /* sizeof(usbDescrConfig): length of descriptor in bytes */
     USBDESCR_CONFIG,    /* descriptor type */
     (18 + 7 * USB_CFG_HAVE_INTRIN_ENDPOINT
@@ -167,20 +167,20 @@ static PROGMEM char usbDescrConfig[] = {    /* USB configuration descriptor */
 #endif
 };
 
-static PROGMEM char usbDescrString0[] = {   /* language descriptor */
+static PROGMEM char const usbDescrString0[] = {   /* language descriptor */
     4,          /* sizeof(usbDescrString0): length of descriptor in bytes */
     3,          /* descriptor type */
     0x09, 0x04, /* language index (0x0409 = US-English) */
 };
 
 #if USB_CFG_VENDOR_NAME_LEN
-static PROGMEM int  usbDescrString1[] = {
+static PROGMEM int  const usbDescrString1[] = {
     USB_STRING_DESCRIPTOR_HEADER(USB_CFG_VENDOR_NAME_LEN),
     USB_CFG_VENDOR_NAME
 };
 #endif
 #if USB_CFG_DEVICE_NAME_LEN
-static PROGMEM int  usbDescrString2[] = {
+static PROGMEM int  const usbDescrString2[] = {
     USB_STRING_DESCRIPTOR_HEADER(USB_CFG_DEVICE_NAME_LEN),
     USB_CFG_DEVICE_NAME
 };

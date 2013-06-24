@@ -24,9 +24,9 @@
 #include "devdesc.h"
 #include "reportdesc.h"
 
-int usbCfgSerialNumberStringDescriptor[] PROGMEM = {
+int const usbCfgSerialNumberStringDescriptor[] PROGMEM = {
  	USB_STRING_DESCRIPTOR_HEADER(USB_CFG_SERIAL_NUMBER_LENGTH),
- 	'1', '0', '0', '0'
+ 	'0', '0', '0', '3'
  };
 
 static Gamepad *curGamepad;

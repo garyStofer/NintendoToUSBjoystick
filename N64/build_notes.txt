@@ -1,0 +1,4 @@
+Build with Studio 6 
+AVR/GNU C Compiler : (AVR_8_bit_GNU_Toolchain_3.4.0_663) 4.6.2
+only debug build works
+ATMEGA88PA Fuses :F9 DD DF

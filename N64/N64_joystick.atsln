@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "N64_joystick", "N64_joystick.cproj", "{8CC00F54-59B1-4342-B319-35F911584C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|AVR = debug|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC00F54-59B1-4342-B319-35F911584C8F}.debug|AVR.ActiveCfg = debug|AVR
+		{8CC00F54-59B1-4342-B319-35F911584C8F}.debug|AVR.Build.0 = debug|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
